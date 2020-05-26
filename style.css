@@ -7,6 +7,7 @@
 } 
 
 .navbar{
+  
   height: 80px;
   width: 100%; 
   display: flex; 
@@ -51,11 +52,66 @@
   font-weight: bold;
 } 
 
- a.active,a:hover{
+ .nav-link.active,.nav-link:hover{
   background: rgb(29, 28, 28);
   transition: .3s;
 } 
   
-body{
+.backg{
+  height: 577px;
+  width:100%;
+  background-image: 
+  url(./image/otso-face2.png);
+  background-repeat: no-repeat;
   background-color: black;
-}   
+  background-position: 840px 75px;
+}
+
+.a1Se1{
+  position: absolute;
+  height: 300px;
+  left: -35px;
+  top: 140px;
+  right: 900px;
+  width: 300px;
+  font: small-caps bold 75px/1 'Oswald', sans-serif;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 600px;
+}
+
+.a2Se1 {
+  position: absolute;
+  color: white;
+  font: small-caps bold 70px/1 sans-serif;
+  top: 150px;
+  left: 320px;
+}
+
+.a3Se1{
+  position: absolute;
+  color: white;
+  font: small-caps bold 50px/1 sans-serif;
+  top: 230px;
+  left: 215px;
+}
+
+.a4Se1{
+  position: absolute;
+  color: white;
+  font: small-caps bold 85px/1 sans-serif;
+  top: 230px;
+  left: 310px;
+}
+
+.a5Se1{
+  position: absolute;
+  color: white;
+  font:  bold 140px/1 'Oswald', sans-serif;
+  left: 200px;
+  top: 320px;
+  text-transform: uppercase;
+  letter-spacing: 300;
+}
