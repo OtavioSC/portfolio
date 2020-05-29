@@ -67,47 +67,39 @@
   background-position: 890px 40px;
 }
 
-/* .logotipo{
-  max-width: 250px;
-  
-} */
 .a1Se1{
   position: absolute;
   color: white;
   font-family: 'Source Code Pro',monospace;
-  font-size: 19px;
-  letter-spacing: 2px;
+  font-size: 22px;
+  letter-spacing: 3px;
   top: 200px;
-  left: 100px;
+  left: 95px;
+  line-height: 60px;
 }
 
 .a2Se1 {
   position: absolute;
   color: white;
   font-family: 'Source Code Pro',monospace;
-  font-size: 19px;
-  letter-spacing: 2px;
+  font-size: 22px;
+  letter-spacing:3px;
   top: 230px;
-  left: 100px;
+  left: 95px;
+  line-height: 60px;
+  
 }
 
 .a3Se1{
   position: absolute;
   color: white;
-  font:19px/1 'Source Code Pro', monospace;
-  letter-spacing: 2px;
+  font:22px/1 'Source Code Pro', monospace;
+  letter-spacing: 3px;
   top: 262px;
-  left: 100px;
+  left: 95px;
+  line-height: 60px;
 }
 
-.a4Se1{
-  position: absolute;
-  color: white;
-  font: 19px/1 'Source Code Pro', monospace;
-  letter-spacing: 2px;
-  top: 290px;
-  left: 100px;
-}
 
 .div2Se1 img{
   position: absolute;
@@ -119,7 +111,7 @@
 
 .inicioBtn{
   position: absolute;
-  background-color: white; /* Green */
+  background-color: white; 
   border: none;
   color: black;
   padding: 15px 32px;
@@ -129,10 +121,13 @@
   text-transform: uppercase;
   border-radius: 12px;
   font: bold 18px/1 'Source Code Pro', monospace;
-  left: 200px;
+  left: 205px;
   top: 400px;
+
 }
 
-/* .inicioBtn:hover{
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-} */
+.inicioBtn:hover{
+  transition: .5s;
+  background-color: rgb(0, 0, 0);
+  color: white
+}
