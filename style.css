@@ -131,3 +131,11 @@
   background-color: rgb(0, 0, 0);
   color: white
 }
+
+.about{
+  height: 660px;
+  width: 100%;
+  
+  background-color: white;
+  background-position: 1000px 100px;
+}
