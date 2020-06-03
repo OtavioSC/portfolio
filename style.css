@@ -269,9 +269,134 @@ body{
 }
 
 .about{
-  height: 660px;
+  height: 550px;
   width: 100%;
-  background-color: white;
-
   background-position: 1000px 100px;
+}
+
+.whiteRetAbout{
+  position: absolute;
+  width: 697px;
+  height: 660px;
+  background-color: white;
+}
+
+.techTitle{
+  position: absolute;
+  width: 406px;
+  height: 48px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: justify;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  color: #000000;
+  top: 28px;
+  left: 195px;
+}
+
+.lineDivide{
+  position: absolute;
+  width: 450px;
+  height: 0px;
+  border: 2px solid #000000;
+  left: 111px;
+  top: 80px;
+  }
+
+.softwareTitle{
+  position: absolute;
+  width: 406px;
+  height: 48px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: justify;
+  letter-spacing: 0.13em;
+  color: #000000;
+  top: 78px;
+  left: 230px;
+}
+
+
+.jsSvg{
+  position: absolute;
+  width: 53px;
+  height: 55px;
+  background-image: url(image/javascript.svg);
+  top: 225px;
+  left: 120px;
+}
+
+
+
+
+.jsTitle{ 
+  position: absolute;
+  width: 115px;
+  height: 52px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 52px;
+  text-align: justify;
+  letter-spacing: 0.13em;
+  color: black;
+  left: 100px;
+  top: 275px;
+}
+
+.xpJs{
+  position: absolute;
+  width: 14px;
+  height: 52px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 52px;
+  font-weight: bold;
+  text-align: justify;
+  letter-spacing: 0.13em;
+  color: black;
+  left: 32px;
+  top: 295px;
+}
+
+.levelJs{
+  position: absolute;
+  width: 50px;
+  height: 52px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 52px;
+  text-align: justify;
+  letter-spacing: 0.13em;
+  color: black;
+  left: 203px;
+  top: 297px;
+}
+
+.greenBarJs{
+  position: absolute;
+  width: 47.33px;
+  height: 1px;
+  border: 3px solid;
+  color: #7CFA68;
+  left: 50px;
+  top: 320px;
+}
+
+.whiteBarJs{
+  position: absolute;
+  width: 200px;
+  height: 1px;
+  background: #C4C4C4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  left: 50px;
+  top: 320px;
 }
