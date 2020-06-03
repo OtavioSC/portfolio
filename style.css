@@ -309,7 +309,25 @@ body{
   border: 2px solid #000000;
   left: 111px;
   top: 80px;
-  }
+}
+
+.lineDivideBlue{
+  position: absolute;
+  width: 450px;
+  height: 0px;
+  border: 2px solid #24EED6;
+  left: 112px;
+  top: 82px;
+}
+
+.lineDivideRed{
+  position: absolute;
+  width: 450px;
+  height: 0px;
+  border: 2px solid #EA1616;
+  left: 114px;
+  top: 83px;
+}
 
 .softwareTitle{
   position: absolute;
@@ -322,7 +340,7 @@ body{
   text-align: justify;
   letter-spacing: 0.13em;
   color: #000000;
-  top: 78px;
+  top: 83px;
   left: 230px;
 }
 
@@ -672,7 +690,7 @@ body{
   position: absolute;
   width: 566px;
   height: 31px;
-  top: 835px;
+  top: 865px;
   left: 745px;
   background: #DFD3D3;
 }
@@ -683,7 +701,7 @@ body{
   height: 365px;
   border: 3px solid #24EED6;
   box-sizing: border-box;
-  top: 830px;
+  top: 860px;
   left: 740px;
 }
 
@@ -693,7 +711,7 @@ body{
   height: 365px;
   border: 3px solid #F7E017;
   box-sizing: border-box;
-  top: 833px;
+  top: 863px;
   left: 743px;
 }
 
@@ -703,7 +721,7 @@ body{
   height: 365px;
   border: 3px solid #EA1616;
   box-sizing: border-box;
-  top: 837px;
+  top: 867px;
   left: 747px;
 }
 
@@ -719,7 +737,7 @@ body{
   text-align: justify;
   letter-spacing: 0.22em;
   color: #000000;
-  top: 825px;
+  top: 855px;
   left: 755px;
 }
 
@@ -736,7 +754,7 @@ body{
   letter-spacing: 0.22em;
   color:white;
   left: 758px;
-  top: 855px;
+  top: 885px;
 }
 
 .myLifeAbout{
@@ -751,7 +769,7 @@ body{
   letter-spacing: 0.22em;
   color:white;
   left: 758px;
-  top: 888px;
+  top: 918px;
 }
 
 .historyAbout{
@@ -766,6 +784,6 @@ body{
   letter-spacing: 0.08em;
   color:white;
   left: 758px;
-  top: 927px;
+  top: 957px;
   text-align: justify;
 }
