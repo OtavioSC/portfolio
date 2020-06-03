@@ -281,7 +281,7 @@ body{
 .whiteRetAbout{
   position: absolute;
   width: 697px;
-  height: 660px;
+  height: 680px;
   background-color: white;
 }
 
@@ -666,4 +666,106 @@ body{
   letter-spacing: 0.10em;
   left: 250px;
   top: 590px;
+}
+
+.retNavAbout{
+  position: absolute;
+  width: 566px;
+  height: 31px;
+  top: 835px;
+  left: 745px;
+  background: #DFD3D3;
+}
+
+.retBlueAbout{
+  position: absolute;
+  width: 569px;
+  height: 365px;
+  border: 3px solid #24EED6;
+  box-sizing: border-box;
+  top: 830px;
+  left: 740px;
+}
+
+.retYellowAbout{
+  position: absolute;
+  width: 569px;
+  height: 365px;
+  border: 3px solid #F7E017;
+  box-sizing: border-box;
+  top: 833px;
+  left: 743px;
+}
+
+.retRedAbout{
+  position: absolute;
+  width: 569px;
+  height: 365px;
+  border: 3px solid #EA1616;
+  box-sizing: border-box;
+  top: 837px;
+  left: 747px;
+}
+
+.promptTituloAbout{
+  position: absolute;
+  width: 283px; 
+  height: 42px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 52px;
+  text-align: justify;
+  letter-spacing: 0.22em;
+  color: #000000;
+  top: 825px;
+  left: 755px;
+}
+
+.versionTxtAbout {
+  position: absolute;
+  width: 327px;
+  height: 37px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 52px;
+  text-align: justify;
+  letter-spacing: 0.22em;
+  color:white;
+  left: 758px;
+  top: 855px;
+}
+
+.myLifeAbout{
+  position: absolute;
+  width: 365px;
+  height: 25px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 0.22em;
+  color:white;
+  left: 758px;
+  top: 888px;
+}
+
+.historyAbout{
+  position: absolute;
+  width: 540px;
+  height: 385px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 0.08em;
+  color:white;
+  left: 758px;
+  top: 927px;
+  text-align: justify;
 }
